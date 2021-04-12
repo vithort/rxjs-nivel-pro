@@ -1,0 +1,55 @@
+{
+  "name": "rxjs-nivel-pro",
+  "version": "1.0.0",
+  "description": "RxJS Nivel PRO",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode=development",
+    "start-01": "cd 01-observable-create && webpack-dev-server --open --mode=development",
+    "start-02": "cd 02-subscriptions && webpack-dev-server --open --mode=development",
+    "start-03": "cd 03-from && webpack-dev-server --open --mode=development",
+    "start-04": "cd 04-of-and-range && webpack-dev-server --open --mode=development",
+    "start-05": "cd 05-interval-and-timer && webpack-dev-server --open --mode=development",
+    "start-06": "cd 06-fromevent && webpack-dev-server --open --mode=development",
+    "start-07": "cd 07-mapto-map-and-filter && webpack-dev-server --open --mode=development",
+    "start-08": "cd 08-tap && webpack-dev-server --open --mode=development",
+    "start-09": "cd 09-first-take-takewhile && webpack-dev-server --open --mode=development",
+    "start-10": "cd 10-last-takelast-skip && webpack-dev-server --open --mode=development",
+    "start-11": "cd 11-reduce-scan && webpack-dev-server --open --mode=development",
+    "start-12": "cd 12-startwith-endwidth && webpack-dev-server --open --mode=development",
+    "start-13": "cd 13-distinct-distinctuntilchanged && webpack-dev-server --open --mode=development",
+    "start-14": "cd 14-pairwise && webpack-dev-server --open --mode=development",
+    "start-15": "cd 15-share && webpack-dev-server --open --mode=development",
+    "start-16": "cd 16-subject && webpack-dev-server --open --mode=development",
+    "start-17": "cd 17-sampletime-throttletime-audittime && webpack-dev-server --open --mode=development",
+    "start-18": "cd 18-delay-buffer-time && webpack-dev-server --open --mode=development",
+    "start-19": "cd 19-debouncetime && webpack-dev-server --open --mode=development",
+    "start-20": "cd 20-zip-merge && webpack-dev-server --open --mode=development",
+    "start-21": "cd 21-concat-forkjoin && webpack-dev-server --open --mode=development",
+    "start-22": "cd 22-combinelatest-withlatestfrom && webpack-dev-server --open --mode=development",
+    "start-23": "cd 23-hoo-mergeall-mergemap && webpack-dev-server --open --mode=development",
+    "start-24": "cd 24-hoo-switchmap-concatmap && webpack-dev-server --open --mode=development",
+    "start-25": "cd 25-hoo-arrays && webpack-dev-server --open --mode=development",
+    "start-26": "cd 26-throwerror-catcherror-retry && webpack-dev-server --open --mode=development",
+    "start-27": "cd 27-never-empty && webpack-dev-server --open --mode=development",
+    "start-28": "cd 28-materialize-dematerialize && webpack-dev-server --open --mode=development",
+    "start-29": "cd 29-tic-tac-toe && webpack-dev-server --open --mode=development"
+  },
+  "author": "Vithor Carvalho",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.27.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "rxjs": "^6.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vithort/rxjs-nivel-pro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vithort/rxjs-nivel-pro/issues"
+  },
+  "homepage": "https://github.com/vithort/rxjs-nivel-pro#readme"
+}
