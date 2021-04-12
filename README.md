@@ -1,268 +1,43 @@
 # rxjs-nivel-pro
   RxJS Nivel PRO
 
-## Repositório
+|     COMANDO      | PROJETO                              |
+| :--------------: | :----------------------------------- |
+| npm run start-01 | 01-observable-create                 |
+| npm run start-02 | 02-subscriptions                     |
+| npm run start-03 | 03-from                              |
+| npm run start-04 | 04-of-and-range                      |
+| npm run start-05 | 05-interval-and-timer                |
+| npm run start-06 | 06-fromevent                         |
+| npm run start-07 | 07-mapto-map-and-filter              |
+| npm run start-08 | 08-tap                               |
+| npm run start-09 | 09-first-take-takewhile              |
+| npm run start-10 | 10-last-takelast-skip                |
+| npm run start-11 | 11-reduce-scan                       |
+| npm run start-12 | 12-startwith-endwidth                |
+| npm run start-13 | 13-distinct-distinctuntilchanged     |
+| npm run start-14 | 14-pairwise                          |
+| npm run start-15 | 15-share                             |
+| npm run start-16 | 16-subject                           |
+| npm run start-17 | 17-sampletime-throttletime-audittime |
+| npm run start-18 | 18-delay-buffer-time                 |
+| npm run start-19 | 19-debouncetime                      |
+| npm run start-20 | 20-zip-merge                         |
+| npm run start-21 | 21-concat-forkjoin                   |
+| npm run start-22 | 22-combinelatest-withlatestfrom      |
+| npm run start-23 | 23-hoo-mergeall-mergemap             |
+| npm run start-24 | 24-hoo-switchmap-concatmap           |
+| npm run start-25 | 25-hoo-arrays                        |
+| npm run start-26 | 26-throwerror-catcherror-retry       |
+| npm run start-27 | 27-never-empty                       |
+| npm run start-28 | 28-materialize-dematerialize         |
+| npm run start-29 | 29-tic-tac-toe                       |
+---
+
+
+## Angular
 
-### Clone
-
-```
-git clone --bare https://github.com/kaikcreator/rxjs-school rxjs-nivel-pro/.git
-cd .\rxjs-nivel-pro\
-```
-
-### Reset Repositório
-
-```
-git config --unset core.bare
-git reset --hard
-```
-
-### Instalar Dependências
-
-```
-npm i
-```
-
-## Creación de Observables
-
-### Función Create
-```
-git stash
-git checkout dev/01-observable-create
-```
-
-### Subscripciones y Observadores
-
-```
-git stash
-git checkout dev/02-subscriptions
-```
-
-
-### Función "from" de RxJS
-
-```
-git stash
-git checkout dev/03-from
-```
-
-### Funciones "range" y "of" de RxJS
-
-```
-git stash
-git checkout dev/04-of-and-range
-```
-
-### Funciones "interval" y "timer" de RxJS
-
-```
-git stash
-git checkout dev/05-interval-and-timer
-```
-
-### Función "fromEvent" de RxJS
-
-```
-git stash
-git checkout dev/06-fromevent
-```
-
-## Operadores básicos
-
-### Operadores "mapTo", "map" y "filteer" de RxJS
-
-```
-git stash
-git checkout dev/07-mapto-map-and-filter
-```
-
-### Operador "tap" dee RxJS
-
-```
-git stash
-git checkout dev/08-tap
-```
-
-### Operadores "first", "take" y "takeWhile" de RxJS
-
-```
-git stash
-git checkout dev/09-first-take-takewhile
-```
-
-### Operadores "last", "takeLast" y "skip" de RxJS
-
-```
-git stash
-git checkout dev/10-last-takelast-skip
-```
-
-### Operadores "reduce" y "scan" de RxJS
-
-```
-git stash
-git checkout dev/11-reduce-scan
-```
-
-## Utilidades
-
-### Operadores "startWith" y "endWith" de RxJS
-
-```
-git stash
-git checkout dev/12-startwith-endwidth
-```
-
-### Operadores "distinct" y "distinctUntilChanged" de RxJS
-
-```
-git stash
-git checkout dev/13-distinct-distinctuntilchanged
-```
-
-### Operador "pairwise" de RxJS
-
-```
-git stash
-git checkout dev/14-pairwise
-```
-
-### Hot & Cold Observables: Operador "share" de RxJS
-
-```
-git stash
-git checkout dev/15-share
-```
-
-### Subject, BehaviorSubject y los Hot Observables
-
-```
-git stash
-git checkout dev/16-subject
-```
-
-## Operadores temporales
-
-### Operadores "sampleTime", "throttleTime" y "auditTime" de RxJS
-
-```
-git stash
-git checkout dev/17-sampletime-throttletime-audittime
-```
-
-### Operadores "delay" y "bufferTime" de RxJS
-
-```
-git stash
-git checkout dev/18-delay-buffer-time
-```
-
-### Operador "debounceTime" de RxJS
-
-```
-git stash
-git checkout dev/19-debouncetime
-```
-
-## Combinación de Observables
-
-### Operadores "zip" y "merge" de RxJS
-
-```
-git stash
-git checkout dev/20-zip-merge
-```
-
-
-### Operadores "concat" y "forkJoin" de RxJS
-
-```
-git stash
-git checkout dev/21-concat-forkjoin
-```
-
-### Operadores "combineLatest" y "withLatestFrom" de RxJS
-
-```
-git stash
-git checkout dev/22-combinelatest-withlatestfrom
-```
-
-## High Order Observables
-
-### Introdución a los HOO, "mergeAll" y "mergeMap"
-
-```
-git stash
-git checkout dev/23-hoo-mergeall-mergemap
-```
-
-### Operadores "switchMap" y "concatMap" de RxJS
-
-```
-git stash
-git checkout dev/24-hoo-switchmap-concatmap
-```
-
-### High Order Observables: de Arrays e Eventos
-
-```
-git stash
-git checkout dev/25-hoo-arrays
-```
-
-## Utilidades Avanzadas
-
-### Operadores "throwError", "catchError" y "retry" de RxJS
-
-```
-git stash
-git checkout dev/26-throwerror-catcherror-retry
-```
-
-### Constantes "NEVER" y "EMPTY" de RxJS
-
-```
-git stash
-git checkout dev/27-never-empty
-```
-
-### Eventos y Notificaciones: "materialize" y "dematerialize"
-
-```
-git stash
-git checkout dev/28-materialize-dematerialize
-```
-
-## Proyecto final
-
-### Juego de Tic-Tac-Toe
-
-```
-git stash
-git checkout dev/29-tic-tac-toe
-```
-
-## BONUS TRACK: RxJS en Angular
-
-### ¿Como utiliza Angular la Libreria RxJS?
-
 ```
-git clone --bare https://github.com/kaikcreator/angular-school-c3 angular-rxjs/.git
-cd angular-rxjs
-git config --unset core.bare
-git reset --hard
-git checkout dev/01-rxjs-in-angular
-npm i
-npm i -g json-server
 json-server --watch db.json
 npm start
 ```
-
-### La AsyncPipe de Angular
-
-```
-git stash
-git checkout dev/02-async-pipe
-```
-
